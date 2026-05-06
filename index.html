@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+        <link rel="icon" type="image/x-icon" href="./src/image/logo-chapeu-mario.png">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/reset.css">
+   
+    <link rel="stylesheet" href="./src/css/estilos.css">
+ <link rel="stylesheet" href="./src/css/reset.css">
+
+    <title>Super Marios Bros - O Filme</title>
+</head>
+
+<body>
+    <!-- 1. O vídeo fica isolado em sua própria div -->
+    <div class="fundo-video">
+        <video class="video" autoplay loop muted>
+            <source src="./src/video/video-mario.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <!-- 2. O conteúdo vem DEPOIS e FORA da div do vídeo -->
+    <header class="cabecalho">
+        <a>
+            <img class="logo" src="./src/image/logo-chapeu-mario.png" alt="Logo">
+        </a>
+        <nav>
+            <ul class="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Detalhes</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <div class="informacoes">
+            <img class="titulo" src="./SRC/image/titulo.png" alt="Titulo do filme Super Mario Bros" />
+            <p class="descricao">Super Mario Bros. O Filme (2023) é uma animação da Illumination e Nintendo que acompanha os encanadores Mario e Luigi, transportados do Brooklyn para o Reino Cogumelo. Mario precisa salvar seu irmão Luigi de Bowser, que ameaça o reino, unindo forças com a Princesa Peach e Toad. É uma aventura vibrante, cheia de referências aos jogos (incluindo Mario Kart), focada na ação e nostalgia para fãs.</p>
+            <button class="botao-trailer">Veja o trailer</button>
+        </div>
+        <img class="mario" src="./SRC/image/super-mario-chars.png" />
+        <div class="modal aberto">
+    <div class="conteudo-modal">
+        <span class="fechar-modal">X</span> <!-- Mudei para "fechar-modal" minúsculo -->
+        <iframe 
+            id="video" 
+            width="560" 
+            height="315" 
+            src="https://youtube.com" 
+            title="Trailer oficial"
+            frameborder="0" 
+            allow="accelerometer; autoplay; mute; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen>
+        </iframe>
+    </div>
+</div>
+
+
+    </main>
+    <script src="./src/js/index.js"></script>
+</body>
+
+</html>
