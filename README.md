@@ -10,7 +10,7 @@
   <img src="https://shields.io" alt="Responsivo">
 </p>
 
----
+----
 
 ## 🔗 Visualização Online
 🚀 **[Clique aqui para ver o projeto em funcionamento](https://github.io)**
